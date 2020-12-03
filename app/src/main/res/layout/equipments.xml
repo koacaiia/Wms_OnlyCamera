@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <RadioGroup
+        android:id="@+id/radioGroup_equip"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton_equip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="2"
+            android:text="점검전" />
+
+        <RadioButton
+            android:id="@+id/radioButton2_equip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="2"
+            android:text="점검후" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner_equip"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_weight="0.8"
+        android:gravity="center|right"
+        android:textSize="14pt" />
+
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Wms_OnlyCamera'
+include ':app'
